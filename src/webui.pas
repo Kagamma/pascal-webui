@@ -11,7 +11,7 @@ const
     webuilib = 'webui-2.dll';
 
     //Uncomment this line if you want to static link WebUI (no .dll dependency)
-    {$define STATICLINK}
+    //{$define STATICLINK}
   {$elseif defined(LINUX)} // Linux - OK (static)
     {$define STATICLINK}
   {$elseif defined(DARWIN)} //MacOS - (shared UNTESTED)
